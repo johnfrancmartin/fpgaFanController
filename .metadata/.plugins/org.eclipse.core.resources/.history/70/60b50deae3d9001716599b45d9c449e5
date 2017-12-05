@@ -1,0 +1,43 @@
+/*
+ * main.c
+ *
+ *	main program for EE30186
+ *
+ *  Created on: 22 Sep 2015
+ *      Author: Alex Beasley
+ */
+
+#include "EE30186.h"
+#include "system.h"
+#include "socal/socal.h"
+#include <inttypes.h>
+#include <stdio.h>
+
+
+#define key0 0xE
+#define key1 0xD
+#define key2 0xB
+#define key3 0x7
+
+int main(int argc, char** argv)
+{
+
+
+	volatile int * LEDs     = (volatile int *)ALT_LWFPGA_LED_BASE;
+	volatile int * Switches = (volatile int *)ALT_LWFPGA_SWITCH_BASE;
+
+	//function call to initialise the FPGA configuration
+	EE30186_Start();
+
+	printf("hello world\n");
+
+	while (1)
+		{
+			*LEDs = *Switches;
+		}
+	//function call to clean up and close the FPGA configuration
+    EE30186_End();
+
+    return 0;
+
+}

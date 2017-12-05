@@ -1,0 +1,1666 @@
+!SESSION 2017-12-05 17:42:19.896 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product com.arm.ds.uni
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.arm.ds.uni
+
+This is a continuation of log file \\myfiles\jfm36\dos\Integrated Engineering\.metadata\.bak_5.log
+Created Time: 2017-12-05 18:41:19.928
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.932
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getLocalSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1590)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:102)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.932
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.935
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getLocalSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1590)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:102)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.935
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.940
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getLocalSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1590)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:102)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.940
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.943
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:106)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.943
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.947
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:106)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.947
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.950
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:106)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.950
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.954
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:110)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.954
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.958
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:110)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.958
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.961
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:110)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.961
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.965
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:114)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.965
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.968
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:114)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.968
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:19.972
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:114)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.972
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:19.975
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.resolveEntry(LanguageSettingsScannerInfoProvider.java:194)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:274)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.976
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:19.979
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.expandVariables(LanguageSettingsScannerInfoProvider.java:140)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:285)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.979
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:19.982
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.resolveEntry(LanguageSettingsScannerInfoProvider.java:194)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:274)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.982
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:19.985
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.expandVariables(LanguageSettingsScannerInfoProvider.java:140)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:285)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.985
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:19.989
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.resolveEntry(LanguageSettingsScannerInfoProvider.java:194)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:274)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.989
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:19.993
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.expandVariables(LanguageSettingsScannerInfoProvider.java:140)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:285)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.pdom.indexer.ProjectIndexerInputAdapter.getBuildConfiguration(ProjectIndexerInputAdapter.java:157)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.getScannerInfo(AbstractIndexerTask.java:1013)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:897)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:554)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:161)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:137)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:19.993
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.269
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.269
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.276
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.276
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.282
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.282
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.290
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:64)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.290
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.296
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:64)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.297
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.303
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:64)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.303
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.310
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.310
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.317
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.317
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.325
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:62)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.325
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.334
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:64)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.334
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.341
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:64)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.342
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:20.349
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.isCustomizedResource(CustomBuildSettingsDecorator.java:64)
+	at org.eclipse.cdt.internal.ui.viewsupport.CustomBuildSettingsDecorator.decorate(CustomBuildSettingsDecorator.java:49)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:20.349
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.024
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSystemSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1570)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:98)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.024
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.032
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSystemSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1570)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:98)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.032
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.040
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSystemSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1570)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:98)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.040
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.049
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getLocalSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1590)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:102)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.049
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.057
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getLocalSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1590)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:102)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.057
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.064
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getLocalSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1590)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:102)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.065
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.071
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:106)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.071
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.076
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:106)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.076
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.082
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:106)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.082
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.085
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:110)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.085
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.090
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:110)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.090
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.094
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:110)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.094
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.098
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:114)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.098
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.103
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:114)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.103
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2017-12-05 18:41:21.106
+!MESSAGE 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.managedbuilder.internal.language.settings.providers.MBSLanguageSettingsProvider.getSettingEntries(MBSLanguageSettingsProvider.java:89)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer$LanguageSettingsWorkspaceProvider.getSettingEntries(LanguageSettingsProvidersSerializer.java:180)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesPooled(LanguageSettingsProvidersSerializer.java:1421)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesUpResourceTree(LanguageSettingsProvidersSerializer.java:1449)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1508)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsProvidersSerializer.getSettingEntriesByKind(LanguageSettingsProvidersSerializer.java:1550)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:114)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.106
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:21.110
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.resolveEntry(LanguageSettingsScannerInfoProvider.java:194)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:274)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.110
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:21.113
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.expandVariables(LanguageSettingsScannerInfoProvider.java:140)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:285)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.113
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:21.117
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.resolveEntry(LanguageSettingsScannerInfoProvider.java:194)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:274)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.117
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:21.119
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.expandVariables(LanguageSettingsScannerInfoProvider.java:140)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:285)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.120
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:21.123
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.resolveEntry(LanguageSettingsScannerInfoProvider.java:194)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:274)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.123
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.core 4 0 2017-12-05 18:41:21.126
+!MESSAGE Error: 
+!STACK 1
+org.eclipse.cdt.core.cdtvariables.CdtVariableException: 
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.stringListToString(SupplierBasedCdtVariableSubstitutor.java:121)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor$ResolvedMacro.getStringValue(SupplierBasedCdtVariableSubstitutor.java:70)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:223)
+	at org.eclipse.cdt.utils.cdtvariables.SupplierBasedCdtVariableSubstitutor.resolveToString(SupplierBasedCdtVariableSubstitutor.java:241)
+	at org.eclipse.cdt.utils.cdtvariables.CdtVariableResolver.resolveToString(CdtVariableResolver.java:122)
+	at org.eclipse.cdt.internal.core.cdtvariables.CdtVariableManager.resolveValue(CdtVariableManager.java:124)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.expandVariables(LanguageSettingsScannerInfoProvider.java:140)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.convertToLocations(LanguageSettingsScannerInfoProvider.java:285)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:119)
+	at org.eclipse.cdt.internal.core.language.settings.providers.LanguageSettingsScannerInfoProvider.getScannerInformation(LanguageSettingsScannerInfoProvider.java:1)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getScannerInfo(TranslationUnit.java:1051)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.getAST(TranslationUnit.java:835)
+	at org.eclipse.cdt.internal.core.model.CModelBuilder2.parse(CModelBuilder2.java:147)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parseUsingCModelBuilder(TranslationUnit.java:665)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.parse(TranslationUnit.java:653)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.buildStructure(TranslationUnit.java:452)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:273)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:427)
+	at org.eclipse.cdt.internal.core.model.TranslationUnit.makeConsistent(TranslationUnit.java:557)
+	at org.eclipse.cdt.internal.core.model.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:62)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:635)
+	at org.eclipse.cdt.internal.core.model.WorkingCopy.reconcile(WorkingCopy.java:365)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:78)
+	at org.eclipse.cdt.internal.ui.text.CReconcilingStrategy.reconcile(CReconcilingStrategy.java:63)
+	at org.eclipse.cdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:87)
+	at org.eclipse.cdt.internal.ui.text.CCompositeReconcilingStrategy.reconcile(CCompositeReconcilingStrategy.java:90)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.cdt.internal.ui.text.CReconciler.process(CReconciler.java:349)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.cdt.core 4 4 2017-12-05 18:41:21.126
+!MESSAGE 
